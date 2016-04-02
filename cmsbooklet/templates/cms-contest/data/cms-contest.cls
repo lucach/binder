@@ -443,16 +443,17 @@
         \par\vspace{\afterproblemhead}
         \parindent=6.5mm
         \vbox{
-            \begin{tabular}{l@{\extracolsep{1cm}}l}
+            %\begin{tabular}{l@{\extracolsep{1cm}}l}
                 %\kw@InputFileName & \texttt{#3} \\
                 %\kw@OutputFileName & \texttt{#4} \\
-                \kw@TimeLimit & #5~\kw@seconds \\
-                \kw@MemoryLimit & #6~MiB \\
-            \end{tabular}
+                %\kw@TimeLimit & #5~\kw@seconds \\
+                %\kw@MemoryLimit & #6~MiB \\
+                \textsc{Difficolt\`a: D=#5} \\
+            %\end{tabular}
         }
         \nopagebreak
     \fi
-    \par\vspace{\afterconstraints}
+    %\par\vspace{\afterconstraints}
 
     % Prepare for the problem statement
     \problemtextfont\parindent=0mm%
