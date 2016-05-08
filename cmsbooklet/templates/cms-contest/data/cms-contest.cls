@@ -412,7 +412,7 @@
 %            7) Difficulty          e.g. 2
 %
 
-\newenvironment{problem}[7]{
+\newenvironment{problem}[6]{
     \setcounter{figure}{0}
 
     % Store values so that they dont go lost
@@ -449,7 +449,6 @@
                 %\kw@OutputFileName & \texttt{#4} \\
                 \kw@TimeLimit & #5~\kw@seconds \\
                 \kw@MemoryLimit & #6~MiB \\
-		\kw@Difficulty & #7\\
             \end{tabular}
         }
         \nopagebreak
