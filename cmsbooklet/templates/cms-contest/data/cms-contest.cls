@@ -120,7 +120,7 @@
 \exmpthreewidnote=0.30\textwidth
 \afterproblemhead=3mm
 \afterconstraints=2mm
-\logolength=16mm
+\logolength=20mm
 \logomargin=3mm
 
 %*********************************************************************
